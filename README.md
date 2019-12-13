@@ -19,33 +19,45 @@ Alterar o **.env** de acordo com as configs do seu banco, portas etc.
 Instalar todas as dependencias do projeto
 	
 	npm install
- 
+	
 ## 3º passo:
+Criar o banco de dados e executar o script **./db/dump.sql**
+	
+	mysql -uroot -ppassword
+	
+	create database blockbuster;
+	
+	use blokbuster;
+	
+	source (..)/db/dump.sql;
+
+ 
+## 4º passo:
 Iniciar servidor
 
 	npm run dev
  
-## 4º passo:
+## 5º passo:
 Criar um usuário através da rota POST -> USER
  
-## 5º passo:
+## 6º passo:
 Logar através da rota POST -> LOGIN
  
-## 6º passo:
+## 7º passo:
 Guardar o token obtido através do método de login e utilizar ele no **HEADER Authorization** das próximas requisições
  
-## 7º passo:
+## 8º passo:
 Listar todos os filmes através da rota GET -> MOVIES
  
 
-## 8º passo:
+## 9º passo:
 Se o filme que você quer não existe, criá-lo através da rota POST -> MOVIE
   
   
-## 9º passo:
+## 10º passo:
 Alugar o filme, através da rota POST -> RENT
 
-## 10º passo:
+## 11º passo:
 Agora, fique a vontade para alugar outros filmes ou verificar os que já alugou, ou fazer logout.
  
  
