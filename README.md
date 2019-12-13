@@ -43,7 +43,7 @@ Criar um usuário através da rota POST -> USER
 ## 6º passo:
 Logar através da rota POST -> LOGIN
  
-## 7º passo:
+# IMPORTANTE 7º passo:
 Guardar o token obtido através do método de login e utilizar ele no **HEADER Authorization** das próximas requisições
  
 ## 8º passo:
