@@ -27,7 +27,7 @@ Criar o banco de dados e executar o script **./db/dump.sql**
 	
 	create database blockbuster;
 	
-	use blokbuster;
+	use blockbuster;
 	
 	source (..)/db/dump.sql;
 
