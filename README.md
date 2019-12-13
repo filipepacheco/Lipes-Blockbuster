@@ -11,8 +11,7 @@ https://documenter.getpostman.com/view/9781630/SWE9YGNY
 Criar o **.env** baseado em **.env.example**
 
 	sudo cp .env.example .env
- 
- Alterar o **.env** de acordo com as configs do seu banco, portas etc.
+Alterar o **.env** de acordo com as configs do seu banco, portas etc.
  
 	sudo nano .env 
  
@@ -27,22 +26,26 @@ Iniciar servidor
 	npm run dev
  
 ## 4º passo:
- Criar um usuário através da rota POST -> USER
+Criar um usuário através da rota POST -> USER
  
 ## 5º passo:
- Logar através da rota POST -> LOGIN
+Logar através da rota POST -> LOGIN
  
 ## 6º passo:
- Guardar o token obtido através do método de login e utilizar ele no **HEADER Authorization** das próximas requisições
+Guardar o token obtido através do método de login e utilizar ele no **HEADER Authorization** das próximas requisições
  
 ## 7º passo:
- Listar todos os filmes através da rota GET -> MOVIES
+Listar todos os filmes através da rota GET -> MOVIES
  
 
 ## 8º passo:
-  Se o filme que você quer não existe, criá-lo através da rota POST -> MOVIE
+Se o filme que você quer não existe, criá-lo através da rota POST -> MOVIE
   
   
 ## 9º passo:
+Alugar o filme, através da rota POST -> RENT
+
+## 10º passo:
+Agora, fique a vontade para alugar outros filmes ou verificar os que já alugou, ou fazer logout.
  
  
